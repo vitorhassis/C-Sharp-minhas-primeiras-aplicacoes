@@ -95,9 +95,13 @@ void MostrarBandasRegistradas()
 ╚═╝░░╚═╝╚══════╝░╚═════╝░╚═╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░
 ");
     Console.WriteLine("Exibindo todas as bandas registradas: ");
-    for (int i = 0; i<bandas.Count; i++)
+    /*for (int i = 0; i<bandas.Count; i++)
     {
         Console.WriteLine($"banda: {bandas[i]}");
+    }*/
+    foreach (string banda in bandas)
+    {
+        Console.WriteLine($"banda:{banda}");
     }
     Console.WriteLine("\nDigite Alguma tecla para voltar ao Menu Principal: ");
     Console.ReadKey();
@@ -105,7 +109,6 @@ void MostrarBandasRegistradas()
     ExibirOpcoesDoMenu();
 }
 
-ExibirLogo();
 ExibirOpcoesDoMenu();
 MostrarBandasRegistradas();
 
