@@ -2,7 +2,7 @@
 
 ###
 
-<p align="center">-Curso introdutório da linguagem C# da plataforma Alura;<br>-Revisando funções, arrays, propriedades, através de um exercício;</p>
+<p align="center">-Curso introdutório da linguagem C# da plataforma Alura;<br>-Revisando funções, arrays, propriedades, aprendendo a sintaxe da linguagem C# através de exercícios;</p>
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/25299430-28ca-483f-8be9-af8de4095549">
