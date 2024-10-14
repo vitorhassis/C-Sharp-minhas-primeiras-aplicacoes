@@ -1,0 +1,15 @@
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\Exercicios\SistemaDeEstoque\SistemaDeEstoque\bin\Debug\net8.0\SistemaDeEstoque.exe
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\Exercicios\SistemaDeEstoque\SistemaDeEstoque\bin\Debug\net8.0\SistemaDeEstoque.deps.json
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\Exercicios\SistemaDeEstoque\SistemaDeEstoque\bin\Debug\net8.0\SistemaDeEstoque.runtimeconfig.json
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\Exercicios\SistemaDeEstoque\SistemaDeEstoque\bin\Debug\net8.0\SistemaDeEstoque.dll
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\Exercicios\SistemaDeEstoque\SistemaDeEstoque\bin\Debug\net8.0\SistemaDeEstoque.pdb
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\Exercicios\SistemaDeEstoque\SistemaDeEstoque\obj\Debug\net8.0\SistemaDeEstoque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\Exercicios\SistemaDeEstoque\SistemaDeEstoque\obj\Debug\net8.0\SistemaDeEstoque.AssemblyInfoInputs.cache
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\Exercicios\SistemaDeEstoque\SistemaDeEstoque\obj\Debug\net8.0\SistemaDeEstoque.AssemblyInfo.cs
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\Exercicios\SistemaDeEstoque\SistemaDeEstoque\obj\Debug\net8.0\SistemaDeEstoque.csproj.CoreCompileInputs.cache
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\Exercicios\SistemaDeEstoque\SistemaDeEstoque\obj\Debug\net8.0\SistemaDeEstoque.sourcelink.json
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\Exercicios\SistemaDeEstoque\SistemaDeEstoque\obj\Debug\net8.0\SistemaDeEstoque.dll
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\Exercicios\SistemaDeEstoque\SistemaDeEstoque\obj\Debug\net8.0\refint\SistemaDeEstoque.dll
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\Exercicios\SistemaDeEstoque\SistemaDeEstoque\obj\Debug\net8.0\SistemaDeEstoque.pdb
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\Exercicios\SistemaDeEstoque\SistemaDeEstoque\obj\Debug\net8.0\SistemaDeEstoque.genruntimeconfig.cache
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\Exercicios\SistemaDeEstoque\SistemaDeEstoque\obj\Debug\net8.0\ref\SistemaDeEstoque.dll
