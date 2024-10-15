@@ -1,0 +1,15 @@
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\ProjetoPrincipal\ProjetoPrincipal\bin\Debug\net8.0\ProjetoPrincipal.exe
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\ProjetoPrincipal\ProjetoPrincipal\bin\Debug\net8.0\ProjetoPrincipal.deps.json
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\ProjetoPrincipal\ProjetoPrincipal\bin\Debug\net8.0\ProjetoPrincipal.runtimeconfig.json
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\ProjetoPrincipal\ProjetoPrincipal\bin\Debug\net8.0\ProjetoPrincipal.dll
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\ProjetoPrincipal\ProjetoPrincipal\bin\Debug\net8.0\ProjetoPrincipal.pdb
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\ProjetoPrincipal\ProjetoPrincipal\obj\Debug\net8.0\ProjetoPrincipal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\ProjetoPrincipal\ProjetoPrincipal\obj\Debug\net8.0\ProjetoPrincipal.AssemblyInfoInputs.cache
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\ProjetoPrincipal\ProjetoPrincipal\obj\Debug\net8.0\ProjetoPrincipal.AssemblyInfo.cs
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\ProjetoPrincipal\ProjetoPrincipal\obj\Debug\net8.0\ProjetoPrincipal.csproj.CoreCompileInputs.cache
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\ProjetoPrincipal\ProjetoPrincipal\obj\Debug\net8.0\ProjetoPrincipal.sourcelink.json
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\ProjetoPrincipal\ProjetoPrincipal\obj\Debug\net8.0\ProjetoPrincipal.dll
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\ProjetoPrincipal\ProjetoPrincipal\obj\Debug\net8.0\refint\ProjetoPrincipal.dll
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\ProjetoPrincipal\ProjetoPrincipal\obj\Debug\net8.0\ProjetoPrincipal.pdb
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\ProjetoPrincipal\ProjetoPrincipal\obj\Debug\net8.0\ProjetoPrincipal.genruntimeconfig.cache
+C:\Users\vh\Documents\C-Minhas-primeiras-aplicacoes\source\repos\ProjetoPrincipal\ProjetoPrincipal\obj\Debug\net8.0\ref\ProjetoPrincipal.dll

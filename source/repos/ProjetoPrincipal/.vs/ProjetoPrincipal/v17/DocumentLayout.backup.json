@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vh\\Documents\\C-Minhas-primeiras-aplicacoes\\source\\repos\\ProjetoPrincipal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9283C041-6737-47D4-907F-D18E1FC99391}|ProjetoPrincipal\\ProjetoPrincipal.csproj|c:\\users\\vh\\documents\\c-minhas-primeiras-aplicacoes\\source\\repos\\projetoprincipal\\projetoprincipal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9283C041-6737-47D4-907F-D18E1FC99391}|ProjetoPrincipal\\ProjetoPrincipal.csproj|solutionrelative:projetoprincipal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vh\\Documents\\C-Minhas-primeiras-aplicacoes\\source\\repos\\ProjetoPrincipal\\ProjetoPrincipal\\Program.cs",
+              "RelativeDocumentMoniker": "ProjetoPrincipal\\Program.cs",
+              "ToolTip": "C:\\Users\\vh\\Documents\\C-Minhas-primeiras-aplicacoes\\source\\repos\\ProjetoPrincipal\\ProjetoPrincipal\\Program.cs*",
+              "RelativeToolTip": "ProjetoPrincipal\\Program.cs*",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAMwLgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:50:29.444Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
