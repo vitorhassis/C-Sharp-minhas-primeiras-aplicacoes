@@ -1,0 +1,249 @@
+C
+-linguagem fortemente tipada = sempre precisar declarar os tipos de variaveis (tipo em C);
+-texto é variavel do tipo string;
+-Toda instrução precisa ser finalizado com ponto e virgula;
+
+NOVIDADES/RELEMBRAR
+-A gnt criou um switch, e de acordo com a escolha do usuario, dentro dos casos, vai chamar funções, e cada funcao realiza uma serie de coisas;
+-Sempre após um . a prox letra vai ser maiuscula. Sempre;
+- .Count = acredito que seja tipo o .value do js. Voce pega o valor. Tipo um array x tem 5 elementos. console.WriteLine(x.Count) vai aparecer 5;
+-{ } = chaves é usado para usar uma variavel;
+-$ = permite interpolar string com variavel. Tipo digitar um texto ($"a banda {nomebanda}"), tornando interativo e mais interessante, visto que é como se o texto
+se alterasse de acordo com valores diferentes para nomebanda;
+- [ ] = Os colchetes são a sintaxe usada em C# para acessar elementos em estruturas de dados indexadas como arrays e listas;
+-----------------
+Console.Read(key) = faz com que voce digite alguma coisa e ele faça algo, por exemplo, sair daquela tela e voltar para um menu anterior. Como? É meio que um conjunto.
+Primeiro voce pode colocar:
+Console.WriteLine("Digite alguma tecla para voltar ao menu principal");
+Console.ReadKey();
+Console.Clear(); -> funcao para limpar o console;
+ExibirMenu(); -> funcao para aparecer o menu;
+----------------
+-Quando o parametro for uma unica string, aspas simples;
+-void é um processamento (nao é uma funcao pois funcao retorna algo). Em seu parametro, assim como na funcao qnd vc declara ela, pode ser qualquer coisa;
+- ! = null-forgiving operator = Ele é usado em situações onde você tem um tipo que pode ser nulo (por exemplo, uma string) e você quer informar ao compilador que 
+você está certo de que essa variável não será nula naquele ponto do código. "PRECISA SER DAQUELE TIPO. PRECISA SER STRING/INT/FLOAT";
+- Thread.Sleep(2000) = dar aquela mini-pausa entre uma funcao e outra, ou algo do tipo. No caso, o valor dentro do parametro é em milissegundos. Ou seja, 2000 ms = 
+2segundos;
+-.Average() = calcula a media em base do dicionario (key e valores);
+-
+
+AVISOS
+-Diferente do que vimos até agora, porque ele indica em portugues onde ta o erro, e oq ta rolando;
+-Vermelho = indica erro, tipo nao colocar ponto e virgula no final de uma instrução;
+-Verde = voce criou uma variavel que ainda nao foi utilizada;
+-Palavras chaves = conceitos e ideias la da logica de programação;	
+
+CONVERSÃO DE TIPOS EM C#
+-Diferente de tudo oq eu vi até agora, quando vc le uma entrada, ela sempre retorna uma STRING independemente do que o usuario digitar. A nao ser que o que voce quer
+ler uma entrada do tipo textual, dai nao precisa fazer a conversão. Caso contrario, sempre voce vai ter que converter;
+-Voce faz tudo isso junto, em uma linha apenas. Por exemplo se for tipo textual = 
+Console.Writeline("Digite seu nome ");
+string nome = Console.ReadLine();		caso 01
+
+Console.WriteLine("Digite quantos anos voce tem ");
+string idade = int.Parse(Console.ReadLine());		caso02
+
+ESTRUTURAS
+-Padrao Camel Case = tipoAssimTendeu;
+-console.WriteLine(nomevariavel);
+-o \n serve pra criar uma linha vazia, um espaço; 
+-se voce botar so o Console.Write(""), oq o usuario responder vai ficar na frente, nao em baixo;
+-Console.ReadLine() = vai ler a string;
+
+FUNCAO
+-Reaproveitar codigo, em vez de repitir linhas;
+-padrao PascalCase = a primeira palavra do nomenclatura da função, começa com letra maiúscula;
+
+VOID
+-Basicamente o processamento la no visualg. Ou seja, uma funcao que nao vai retornar algo, ela vai realizar um processamento;
+
+FSYMBOLS.COM
+-Voce escreve algo, e ele aparece diferentes formas daquela string;
+-Voce copia no site, e cola dentro do Console.WriteLine("colaaq");
+-Verbatim Literal = Voce colocando um @ antes das duplas aspas, de dois enters e cola. Vai ficar certin a string modificada. Se voce so colar funciona, mas fica tudo
+bugado a linha, parece q é um erro;
+
+ESTRUTURA CONDICIONAL
+-Segue oq ja sabemos. Usamos uma estrutura condicional para fazer a escolha de acordo com o menu;
+-numero nao bota nada, coloca ele cru;
+-Segue a estrutura. Dentro do IF, dois iguais;
+-Quando se tem varias condições relacionadas logicamente, usamos o switch:
+ 
+switch (opcaoEscolhidaNumerica)
+{
+    case 1: Console.WriteLine("Voce escolheu a opcao " + opcaoEscolhida); 
+        break;
+    case 2: Console.WriteLine("Voce escolheu a opcao " + opcaoEscolhida); 
+        break;
+    case 3: Console.WriteLine("Voce escolheu a opcao " + opcaoEscolhida);
+        break;
+    case 4: Console.WriteLine("Voce escolheu a opcao " + opcaoEscolhida);
+        break;
+    case -1: Console.WriteLine("Voce escolheu a opcao " + opcaoEscolhida);
+        break;
+    default: Console.WriteLine("Opção inválida");
+        break;
+}
+
+
+TIPOS DE VARIAVEIS
+-string;
+-int;
+
+CONVERSAO VAR STRING -> INT
+-Vamos transformar a variavel string da opção para uma variavel numerica e podermos utiliza-la dentro do if;
+-int opcaoEscolhidaNumerica = int.Parse(opcaoEscolhida) = o int.Parse faze essa conversão/transformação;
+
+CONCATENAR STRING, TEXTO DO CONSOLEWRITE COM VARIAVEL
+-Em c, a gnt fazia printf("blablabla %d", num). Aq, se faz Console.WriteLine("voce digitou a opcao" + opcaoEscolhida) OU tambem, voce pode usar:
+
+Console.WriteLine("Digite seu nome:");
+string nome = Console.ReadLine();			(primeiro caso)
+Console.WriteLine("Seu nome é: " + nome);
+
+Console.WriteLine("Digite seu nome:");
+string nome = Console.ReadLine();
+Console.Writeline($"Seu nome é: {nome}", nome); 	(segundo caso) -template string ($) para permitir a concatenação do texto com a variavel-
+
+
+
+
+
+-O segundo caso se pa eh melhor, pq estamos mais acostumados assim (C faculdade) do que o primeiro. Quando voce digitou seu nome, ela armazenou ele na posicao
+0. Ent quando fazemos o {0} estamos colocando dentro do Console.WriteLine o valor da variavel que está presente na posição 0 (primeiro);
+
+
+ARRAY
+-list< > = sempre comece com list;
+-list < X > = X tipo do array;
+-Array como a gnt ja sabe, é uma lista que apresentará valores, e cada um tem sua posição começando com 0;
+-List<string> bandas = new List<string>() = Definimos o tipo da lista, o new voce alocou espaço para armazenar strings dentro dela, o () diz que ela vai ser vazia,
+ou seja, ela vai possuir valores que vao sendo adicionados dentro dessa array!;
+-bandas.Add(nomeDaBanda) = bandas é o nome do array, e .Add("x") x é a variavel banda que vai ficar sendo armazenada dentro da lista/array;
+-Tem como voce ja deixar definido alguns elementos dentro da array, e adicionar. Vai funcionar tranquilamente. Voce ja pode deixar definido tipo:
+list <string> bandas = new list <string>() = assim ta vazio, n tem nd;
+list <string> bandas = new list <string> {"banda a", "banda b", "banda c"}. Se voce adicionar banda, elas serao adicionadas com no array que ja possui elementos, e 
+vai dar certo tb;
+
+
+PERCORRER LISTA ARRAY
+-Utilizar o for ( um looping ) para percorrer nas listas;
+-O for eh bem similar ao oq a gnt ja usou em C;
+for (int i = 0; i<bandas.Count;i++)
+{
+    Console.WriteLine($"banda: {bandas[i]}");
+}
+-Ou seja, para i de 0 ate a quantidade de elementos do vetor -1 (aquele lance de q o elemento 1 esta na posicao 0, ja foi explicado isso aq);
+-No caso o i por começar em 0 e ser o numero de valores do array -1, ele é literalmente o indice de posição do vetor. Por isso o {bandas[i]}, porque vamos estar 
+acessando o vetor "bandas", e o [i] representa um indice, que indica a posição do elemento.  
+
+EX:
+List<string> linguagens = new List<string> { "C#", "Java", "JavaScript" }:
+-List<T> (no caso <string>) representa o tipo de dados que o array vai armazenar. Nesse caso então, strings. Até então, inicializamos o array(Está vazia);
+-"linguagens" é o nome que voce deu para o array;
+- new List <string> = voce aloca espaço na memória para armazenar os elementos da lista. Entao antes do igual voce só define como ela vai ser(esta vazia) e depois
+do igual voce aloca espaço na memoria para armazenar os elementos da lista (que esta dentro de chaves, e dentro de aspas duplas);
+-Vale lembrar que a posicao do primeiro elemento da array é 0, a posicao do segundo é 1, e assim vai; 
+if (indice >= 0 && indice < linguagens.Count) { }
+-Essa linha é boa para entender algumas coisas, principalmente referente a posicao dos elementos da array. Esse if aq, é basicamente uma verificação se o indice
+escolhido for maior ou igual a zero (porque a posicao do array comeca em 0) e se ele é menor que a quantidade de linguagens. Porque? porque se temos por ex aquela
+array com 3 linguagens/valores: { "C#", "Java", "JavaScript" }. Mas c# = 0, java = 1, js = 2. Logo, o indice é maior ou igual a 0 e menor que 3 (exatamente a 
+quantidade de linguagens);
+
+ESCREVA LEIA / PRINTF SCANF / CONSOLE.WRITELINE / CONSOLE.READLINE
+-Bom, a logica é a mesma sempre, o que muda é a sintaxe de cada linguagem;
+-Aq, vc usa o Console.WriteLine("") para escrever alguma coisa, e para ler, voce cria na propria lingua o tipo da variavel que vai armazenar. Ex:
+Console.WriteLine("Digite o nome da banda");
+string nomeBanda = Console.ReadLine();
+-E aparentemente sempre vai ser string. Voce tem q converter dps para o tipo que voce quer. Por exemplo:
+Console.WriteLine("Digite quantos anos voce tem")
+string idade = Console.ReadLine();
+int idadeNum = int.Parse(idade);
+-Ent vc captura como string (acho q sempre) e converte para tipo inteiro;
+-Voce pode usar apenas Console.Write("") para nao pular linha;
+
+CONTINUANDO O PROJETO
+-Console.Clear() = funcao que faz com que todo o console fique limpo;
+Thread.Speed(2000) = Faz ter uma pequena espera, so pra tlg dar um charme. O valor é em milissegundos;
+-Agora vamos fazer com que voce consiga adicionar quantas bandas voce quiser, criar entao um vetor array para q os valores de banda fique armazenado em algum lugar;
+-bandas.Add(nomeDaBanda) = bandas é o nome do array, e .Add("x") x é a variavel banda que vai ficar sendo armazenada dentro da lista/array;
+-Agora vamos fazer a funcionalidade 2 para ver essa lista, exibir essas bandas que foram registradas dentro do array (percorrer lista);
+-Vamos utilizar o forEach para realizar ações em cada elemento da array;
+-Vamos trocar a estrutura de lista para dicionário;
+
+
+VOID EXIBIR TITULODAOPCAO
+-void ExibirTituloDaOpcao(string titulo) = tinhamos 3 linhas que se repetia em determinadas parte do codigo, que seria um mini layout de asteriscos em cima, uma
+frase "Exibindo todas as bandas registradas" e mais uma linha de asteriscos em baixo. A questão é que queríamos que esse layout sempre fosse feito, independente da 
+frase que estivesse entre as linhas dos asteriscos, e tb, para que os asteriscos fique do tamanho da linha da frase, pra ficar alinhado. Para isso, criamos esta 
+funcao;
+- string asteriscos = string.Empty.PadLeft(quantidadeLetras,'*') = Pensa que entao teremos uma string vazia (espaco vazio) que vai começar a ter a presença do
+asterisco (segundo parametro) e preencher esse espaço, à esquerda (padLeft). Quantos espaços/qual o tamanho que esse asteriscos vai preencher? ele vai preencher
+o mesmo tamanho que o tamanho do titulo, para ficar alinhadinho. Empty é de vazio, string vazia que vai ser preenchida.
+
+ERROS
+-A maioria dos erros mais básicos e claros ele mostra em baixo. Mas se nao ficar compilando, é algum erro mais chato de achar. Uma funcao que quando chama ta escrita
+errada, erro de escrita, algo assim;
+
+FOREACH
+-O forEach é uma maneira de voce percorrer os elementos de um array sem precisar de um laço de repetição como for,while;
+-Uma maneira alternativa de voce nao usar o for:
+for (int i = 0; i<bandas.Count; i++)
+{
+    Console.WriteLine($"banda: {bandas[i]}");	//como é usando o for
+}
+foreach (string banda in bandas)<->(foreach string banda pertence a lista bandas)
+{
+    Console.WriteLine($"banda:{banda}");	//usando o forEach. Ou seja, vou imprimir banda, ou seja, para cada elemento dentro da lista/array
+}
+
+LISTAS/DICIONARIO
+-Até entao, estavamos fazendo apenas listas, mas para atribuir valor a uma string registradas, aprendemos a utilizar uma nova estrutura, que é o Dictionary (que 
+utiliza a propria lista, inclusive. Porem, o Dictionary possui a presença das chamadas chaves e valores);
+-Dictionary armazena dados em pares. Para isso, há a presença das chamadas chaves, (geralmente strings e nesse caso, o nome das bandas) que terá um outro dado 
+chamado de valor (nesse caso do tipo int por ser nota de 0 a 10 para as bandas);
+
+LISTAS (List<T>) CHAVES
+-precisamos definir as quantidades, porque elas são fortemente tipadas;
+- Você pode adicionar ou remover elementos facilmente, e o tamanho da lista se ajusta automaticamente (notas das bandas, pode ter 10 ou 30 ou 3 notas);
+-Quando você não sabe a quantidade de elementos que precisará ou quando deseja uma estrutura que possa crescer;
+
+DICIONARIOS (Dictionary<TKey, TValue>) CHAVES E VALORES
+valor = nota (int) / chave = nome das bandas (string);
+-Você pode armazenar dados em pares, onde cada valor é associado a uma chave única, ou seja, onde cada nota é associada a um nome da banda;
+-Vai ter a chave (nome das bandas) com os seus respectivos valores (notas);
+-eal para quando você precisa associar dados, como notas a bandas;
+- Dicionary<string, List<int>> BandasRegistradas = Dicionary é o nome da estrutura, string = nome das bandas, List = os valores serão na forma de lista (tem um 
+topico em lista que diz "Quando voce nao sabe a quantidade de elementos que precisará, e o tamanho da lista se ajusta automaticamente", que é exatamente a ideia
+de atribuir nota as bandas. Por isso, vamos usar a estrutura dicionary que permite armazenar dados em pares, onde cada valor é associado a uma chave, e a estrutura
+de atribuir valor, será de listas, por ser um tamanho que se ajusta automaticamente, e que nao sabemos quantas avaliações/quantidade de elementos (avaliações/notas)
+cada banda vai receber;
+-BandasRegistradas.Add(nomeDaBanda, new List<int>()) = adicionar agora as bandas dentro do dicionario. BandasRegistradas(nome do dicionario).Add (adicionar) 
+nomeDaBanda(q ele guarda oq vc digita qnd ele pergunta voce o nome de uma banda), new List<int>() = inicializa uma lista vazia de notas (vai receber as notas);
+-Mudamos o foreach, porque agora nao é lista e sim dicionário. foreach (string banda in BandasRegistradas.Keys) Ou seja, estamos pegando as chaves (strings que no
+caso é o nome das bandas) do dicionario BandasRegistradas;
+-BandasRegistradas.Add("Link Park", new List<int> { 10, 8, 6 }) = no caso, isso foi colocado depois da linha que criava o dicionario. O que ta dentro das aspas 
+duplas seria a CHAVE, e do List<int>, o que esta dentro das chaves seria os valores associados aquela chave, ou seja, aquela banda;
+
+AVALIAR UMA BANDA
+-Precisa digital qual banda quer avaliar, ver se essa banda existe, se ela está registrada no dicionario (estrutura condicional) se existir, pode atribuir valor a 
+banda desejada. Se for uma banda que nao existe, exibe uma msg e volta pro menu principal;
+-Lembrando que no dicionario temos as chaves e os valores. No caso, queremos perguntar se aquela banda que a pessoa digitou tem uma chave no dictionary;
+-Se tiver, vamos ter que pegar o valor que ela deu para a banda, e adicionar dentro de VALOR da determinada CHAVE;
+- if (BandasRegistradas.ContainsKey(nomeDaBanda)) = se BandasRegistradas(Dictionary,dicionario) conter a chave {nomeDaBanda} = tiver uma string que possua o nome da
+banda que o usuario colocou para avaliar, { ... }. Esse ContainsKey é literalmente conter a chave;
+-BandasRegistradas[nomeDaBanda].Add(notaDaBanda) = pegando o dicionario, dentro dos colchetes, o nome da banda e vamos adicionar (.Add) a nota que ela deseja para 
+aquela banda;
+
+CRIANDO A OPCAO EXIBIR MEDIA
+-Bom, primeiro fizemos o basico, criamos a funcao no switch e montamos ela la em baixo;
+-Primeiro, fizemos o seguinte. Demos la o consoleClear, o writeline com o nome grande "MEDIA BANDA". Pedimos para o usuario o nome da banda que ele quer ver a media,
+e guardamos na variavel nomeBanda. Precisamos ver primeiro se a banda que ele quer tem dentro do dicionario. Ou seja, if (bandasRegistradas.CountainsKey(nomeBanda)).
+No else (mais facil), escrevemos que a banda que ele digitou nao ta registrada, e finalizamos. No if, vamos ter que pegar os valores associados a banda registrada, e
+exibir a media para o usuario;
+-Para isso entao, vamos pegar a lista daquelas notas associadas a banda em questao.  Criamos uma lista de valores inteiros que é exatamente isso. Ela vai ser entao
+exatamente a lista de valores que está associada as chaves. por isso fica list <int> notasDaBanda(nome) = bandas.Registradas[nomeDaBanda];
+-No c# ja tem algumas funcoes que te ajudam bastante. Por exemplo, ao inves de ter que somar todas os valores e dividir pela quantidade de valores, ja tem uma funcao
+que faz tudo isso, ou seja, uma funcao que calcula a media. No caso, .Average();
+-Existem outras funcoes tb como o .Sum() que usamos no exercicio de estoque, ele soma todos os valores da lista (associada a determinada key) e exibe para voce;
