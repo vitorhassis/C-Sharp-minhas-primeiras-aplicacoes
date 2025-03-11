@@ -1,4 +1,4 @@
-C
+C#
 -linguagem fortemente tipada = sempre precisar declarar os tipos de variaveis (tipo em C);
 -texto é variavel do tipo string;
 -Toda instrução precisa ser finalizado com ponto e virgula;
@@ -25,8 +25,6 @@ ExibirMenu(); -> funcao para aparecer o menu;
 você está certo de que essa variável não será nula naquele ponto do código. "PRECISA SER DAQUELE TIPO. PRECISA SER STRING/INT/FLOAT";
 - Thread.Sleep(2000) = dar aquela mini-pausa entre uma funcao e outra, ou algo do tipo. No caso, o valor dentro do parametro é em milissegundos. Ou seja, 2000 ms = 
 2segundos;
--.Average() = calcula a media em base do dicionario (key e valores);
--
 
 AVISOS
 -Diferente do que vimos até agora, porque ele indica em portugues onde ta o erro, e oq ta rolando;
@@ -227,7 +225,7 @@ caso é o nome das bandas) do dicionario BandasRegistradas;
 duplas seria a CHAVE, e do List<int>, o que esta dentro das chaves seria os valores associados aquela chave, ou seja, aquela banda;
 
 AVALIAR UMA BANDA
--Precisa digital qual banda quer avaliar, ver se essa banda existe, se ela está registrada no dicionario (estrutura condicional) se existir, pode atribuir valor a 
+-Precisa digitar qual banda quer avaliar, ver se essa banda existe, se ela está registrada no dicionario (estrutura condicional) se existir, pode atribuir valor a 
 banda desejada. Se for uma banda que nao existe, exibe uma msg e volta pro menu principal;
 -Lembrando que no dicionario temos as chaves e os valores. No caso, queremos perguntar se aquela banda que a pessoa digitou tem uma chave no dictionary;
 -Se tiver, vamos ter que pegar o valor que ela deu para a banda, e adicionar dentro de VALOR da determinada CHAVE;
@@ -236,14 +234,5 @@ banda que o usuario colocou para avaliar, { ... }. Esse ContainsKey é literalme
 -BandasRegistradas[nomeDaBanda].Add(notaDaBanda) = pegando o dicionario, dentro dos colchetes, o nome da banda e vamos adicionar (.Add) a nota que ela deseja para 
 aquela banda;
 
-CRIANDO A OPCAO EXIBIR MEDIA
--Bom, primeiro fizemos o basico, criamos a funcao no switch e montamos ela la em baixo;
--Primeiro, fizemos o seguinte. Demos la o consoleClear, o writeline com o nome grande "MEDIA BANDA". Pedimos para o usuario o nome da banda que ele quer ver a media,
-e guardamos na variavel nomeBanda. Precisamos ver primeiro se a banda que ele quer tem dentro do dicionario. Ou seja, if (bandasRegistradas.CountainsKey(nomeBanda)).
-No else (mais facil), escrevemos que a banda que ele digitou nao ta registrada, e finalizamos. No if, vamos ter que pegar os valores associados a banda registrada, e
-exibir a media para o usuario;
--Para isso entao, vamos pegar a lista daquelas notas associadas a banda em questao.  Criamos uma lista de valores inteiros que é exatamente isso. Ela vai ser entao
-exatamente a lista de valores que está associada as chaves. por isso fica list <int> notasDaBanda(nome) = bandas.Registradas[nomeDaBanda];
--No c# ja tem algumas funcoes que te ajudam bastante. Por exemplo, ao inves de ter que somar todas os valores e dividir pela quantidade de valores, ja tem uma funcao
-que faz tudo isso, ou seja, uma funcao que calcula a media. No caso, .Average();
--Existem outras funcoes tb como o .Sum() que usamos no exercicio de estoque, ele soma todos os valores da lista (associada a determinada key) e exibe para voce;
+NAMESPACE
+-

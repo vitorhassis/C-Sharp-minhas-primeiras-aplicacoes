@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vh\\Documents\\C-Minhas-primeiras-aplicacoes\\source\\repos\\ProjetoPrincipal\\",
+  "WorkspaceRootPath": "C:\\Users\\vh\\Documents\\GitHub\\C-Sharp-minhas-primeiras-aplicacoes\\source\\repos\\ProjetoPrincipal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9283C041-6737-47D4-907F-D18E1FC99391}|ProjetoPrincipal\\ProjetoPrincipal.csproj|c:\\users\\vh\\documents\\c-minhas-primeiras-aplicacoes\\source\\repos\\projetoprincipal\\projetoprincipal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9283C041-6737-47D4-907F-D18E1FC99391}|ProjetoPrincipal\\ProjetoPrincipal.csproj|c:\\users\\vh\\documents\\github\\c-sharp-minhas-primeiras-aplicacoes\\source\\repos\\projetoprincipal\\projetoprincipal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9283C041-6737-47D4-907F-D18E1FC99391}|ProjetoPrincipal\\ProjetoPrincipal.csproj|solutionrelative:projetoprincipal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vh\\Documents\\C-Minhas-primeiras-aplicacoes\\source\\repos\\ProjetoPrincipal\\ProjetoPrincipal\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\vh\\Documents\\GitHub\\C-Sharp-minhas-primeiras-aplicacoes\\source\\repos\\ProjetoPrincipal\\ProjetoPrincipal\\Program.cs",
               "RelativeDocumentMoniker": "ProjetoPrincipal\\Program.cs",
-              "ToolTip": "C:\\Users\\vh\\Documents\\C-Minhas-primeiras-aplicacoes\\source\\repos\\ProjetoPrincipal\\ProjetoPrincipal\\Program.cs",
+              "ToolTip": "C:\\Users\\vh\\Documents\\GitHub\\C-Sharp-minhas-primeiras-aplicacoes\\source\\repos\\ProjetoPrincipal\\ProjetoPrincipal\\Program.cs",
               "RelativeToolTip": "ProjetoPrincipal\\Program.cs",
-              "ViewState": "AgIAALAAAAAAAAAAAAAewLgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T12:50:29.444Z",
               "EditorCaption": ""
